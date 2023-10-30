@@ -1,0 +1,717 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "ChatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "ChatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ChatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Collection",
+        "printedName": "Collection",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "json",
+            "printedName": "json()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Sl7ChatSDKE4jsonSSyF",
+            "mangledName": "$sSl7ChatSDKE4jsonSSyF",
+            "moduleName": "ChatSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Collection>",
+            "sugared_genericSig": "<Self where Self : Swift.Collection>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:Sl",
+        "mangledName": "$sSl",
+        "moduleName": "Swift",
+        "genericSig": "<τ_0_0 : Swift.Sequence, τ_0_0.Element == τ_0_0.SubSequence.Element, τ_0_0.Index : Swift.Comparable, τ_0_0.Index == τ_0_0.Indices.Element, τ_0_0.Indices : Swift.Collection, τ_0_0.Indices == τ_0_0.Indices.SubSequence, τ_0_0.SubSequence : Swift.Collection, τ_0_0.SubSequence == τ_0_0.SubSequence.SubSequence, τ_0_0.Indices.Element == τ_0_0.Indices.Index, τ_0_0.Indices.Index == τ_0_0.SubSequence.Index>",
+        "sugared_genericSig": "<Self : Swift.Sequence, Self.Element == Self.SubSequence.Element, Self.Index : Swift.Comparable, Self.Index == Self.Indices.Element, Self.Indices : Swift.Collection, Self.Indices == Self.Indices.SubSequence, Self.SubSequence : Swift.Collection, Self.SubSequence == Self.SubSequence.SubSequence, Self.Indices.Element == Self.Indices.Index, Self.Indices.Index == Self.SubSequence.Index>",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/UploadData.swift",
+      "kind": "StringLiteral",
+      "offset": 417,
+      "length": 12,
+      "value": "\"image\/jpeg\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/UploadData.swift",
+      "kind": "StringLiteral",
+      "offset": 445,
+      "length": 17,
+      "value": "\"application\/pdf\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/UploadData.swift",
+      "kind": "StringLiteral",
+      "offset": 478,
+      "length": 13,
+      "value": "\"audio\/x-m4a\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/UploadData.swift",
+      "kind": "StringLiteral",
+      "offset": 507,
+      "length": 11,
+      "value": "\"video\/mp4\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/UploadData.swift",
+      "kind": "StringLiteral",
+      "offset": 627,
+      "length": 7,
+      "value": "\".jpeg\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/UploadData.swift",
+      "kind": "StringLiteral",
+      "offset": 673,
+      "length": 6,
+      "value": "\".pdf\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/UploadData.swift",
+      "kind": "StringLiteral",
+      "offset": 718,
+      "length": 6,
+      "value": "\".m4a\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/UploadData.swift",
+      "kind": "StringLiteral",
+      "offset": 763,
+      "length": 6,
+      "value": "\".mp4\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/UploadData.swift",
+      "kind": "StringLiteral",
+      "offset": 417,
+      "length": 12,
+      "value": "\"image\/jpeg\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/UploadData.swift",
+      "kind": "StringLiteral",
+      "offset": 445,
+      "length": 17,
+      "value": "\"application\/pdf\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/UploadData.swift",
+      "kind": "StringLiteral",
+      "offset": 478,
+      "length": 13,
+      "value": "\"audio\/x-m4a\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/UploadData.swift",
+      "kind": "StringLiteral",
+      "offset": 507,
+      "length": 11,
+      "value": "\"video\/mp4\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Repositories\/ChatRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 461,
+      "length": 15,
+      "value": "\"conversations\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Repositories\/ChatRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 525,
+      "length": 6,
+      "value": "\"page\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Repositories\/ChatRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 559,
+      "length": 7,
+      "value": "\"limit\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Repositories\/ChatRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 750,
+      "length": 21,
+      "value": "\"conversations\/\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Repositories\/ChatRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 770,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Repositories\/ChatRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 820,
+      "length": 6,
+      "value": "\"page\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Repositories\/ChatRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 854,
+      "length": 7,
+      "value": "\"limit\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Repositories\/ChatRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 1032,
+      "length": 14,
+      "value": "\"uploadInChat\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Collection+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 474,
+      "length": 4,
+      "value": "\"{}\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Collection+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 515,
+      "length": 36,
+      "value": "\"json serialization error: \""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Collection+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 550,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Collection+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 572,
+      "length": 4,
+      "value": "\"{}\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/ChatSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 161,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/ChatSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 376,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/ChatSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 483,
+      "length": 45,
+      "value": "\"Please check your ChatSDK apiKey you provid\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/ChatSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 573,
+      "length": 20,
+      "value": "\"successfully start\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/RequestBuilderError.swift",
+      "kind": "StringLiteral",
+      "offset": 336,
+      "length": 42,
+      "value": "\"RequestBuilderError:: Invalid URL \""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/RequestBuilderError.swift",
+      "kind": "StringLiteral",
+      "offset": 377,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/RequestManger\/RequestManger+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1507,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/RequestManger\/RequestManger+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 1577,
+      "length": 39,
+      "value": "\"the Progress is \""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/RequestManger\/RequestManger+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 1614,
+      "length": 1,
+      "value": "\"%\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/NetworkingConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 173,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/NetworkingConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 210,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/NetworkingConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 281,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/NetworkingConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 316,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/RequestBuilder\/RequestBuilder+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 190,
+      "length": 36,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/RequestBuilder\/RequestBuilder+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 220,
+      "length": 1,
+      "value": "\"\/api\/\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/RequestBuilder\/RequestBuilder+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 406,
+      "length": 6,
+      "value": "\"lang\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/RequestBuilder\/RequestBuilder+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 647,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/RequestBuilder\/RequestBuilder+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 666,
+      "length": 17,
+      "value": "\"Bearer \""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/RequestBuilder\/RequestBuilder+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 682,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/RequestBuilder\/RequestBuilder+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1500,
+      "length": 590,
+      "value": "\"              \n====================================\n🚀🚀FULL REQUEST COMPONENETS:::\n              \nURL:: \""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/RequestBuilder\/RequestBuilder+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1646,
+      "length": 14,
+      "value": "\"No URL Found\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/RequestBuilder\/RequestBuilder+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1661,
+      "length": 33,
+      "value": "\"\n---------------------------------\nMethod:: \""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/RequestBuilder\/RequestBuilder+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1729,
+      "length": 15,
+      "value": "\"No httpMethod\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/RequestBuilder\/RequestBuilder+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1745,
+      "length": 33,
+      "value": "\"\n---------------------------------\nHeader::\n\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/RequestBuilder\/RequestBuilder+Extensions.swift",
+      "kind": "Dictionary",
+      "offset": 1823,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/RequestBuilder\/RequestBuilder+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1835,
+      "length": 33,
+      "value": "\"\n---------------------------------\nQueries::\n\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/RequestBuilder\/RequestBuilder+Extensions.swift",
+      "kind": "Dictionary",
+      "offset": 1918,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/RequestBuilder\/RequestBuilder+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1930,
+      "length": 33,
+      "value": "\"\n---------------------------------\nBody::\n\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/RequestBuilder\/RequestBuilder+Extensions.swift",
+      "kind": "Dictionary",
+      "offset": 2007,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/RequestBuilder\/RequestBuilder+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2019,
+      "length": 36,
+      "value": "\"\n              \n====================================\n              \""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 154,
+      "length": 9,
+      "value": "\"CONNECT\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 183,
+      "length": 8,
+      "value": "\"DELETE\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 208,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 231,
+      "length": 6,
+      "value": "\"HEAD\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 258,
+      "length": 9,
+      "value": "\"OPTIONS\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 286,
+      "length": 7,
+      "value": "\"PATCH\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 311,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 334,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 358,
+      "length": 7,
+      "value": "\"QUERY\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 384,
+      "length": 7,
+      "value": "\"TRACE\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 154,
+      "length": 9,
+      "value": "\"CONNECT\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 183,
+      "length": 8,
+      "value": "\"DELETE\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 208,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 231,
+      "length": 6,
+      "value": "\"HEAD\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 258,
+      "length": 9,
+      "value": "\"OPTIONS\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 286,
+      "length": 7,
+      "value": "\"PATCH\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 311,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 334,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 358,
+      "length": 7,
+      "value": "\"QUERY\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Networking\/Request\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 384,
+      "length": 7,
+      "value": "\"TRACE\""
+    }
+  ]
+}
