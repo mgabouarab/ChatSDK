@@ -19,7 +19,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			m3QEs9qijxw9pcpIXwmzoS535HS8KBnAAnJ6iec6bAw=
+			VGFM0Gdh6FYTTIcocDcXpYLcSTkRk+R2FE17skSwNNo=
 			</data>
 		</dict>
 		<key>Headers/ChatSDK.h</key>
@@ -33,14 +33,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YPA2I0FRHf2PfxqM6ZSP4XK4w8iP/dYWe6otUzti/ZI=
+			bgC8HCAJrbWnY2QxVo5bbZQAtkpPefhLOEmhijliH7Y=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TvHgbgOWrJrdB5wRdXOgnqFRKgWQrFQmiiCQTAs7hAw=
+			4WTWHO3ZKEJksyATviac99/sFdNf0x9ziLWrRpnvUNM=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
@@ -54,28 +54,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TvHgbgOWrJrdB5wRdXOgnqFRKgWQrFQmiiCQTAs7hAw=
+			4WTWHO3ZKEJksyATviac99/sFdNf0x9ziLWrRpnvUNM=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fWBErw3HBac5IF9Guykz+DdeIDels4wWTnChJGKSECM=
+			YRRyBwy01Yd24OlQAHdnnhNA1c6Lsuvo1HvNyy9yghI=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YPA2I0FRHf2PfxqM6ZSP4XK4w8iP/dYWe6otUzti/ZI=
+			bgC8HCAJrbWnY2QxVo5bbZQAtkpPefhLOEmhijliH7Y=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e5i5916mzJMgqACYZHvhZe9nOLHnSkSOVIWRB13wGrc=
+			Pdu65QQKTGPT8wmtRP2nxth2rIVkwZjnICUB+s8EHMw=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
@@ -89,14 +89,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			e5i5916mzJMgqACYZHvhZe9nOLHnSkSOVIWRB13wGrc=
+			Pdu65QQKTGPT8wmtRP2nxth2rIVkwZjnICUB+s8EHMw=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			goK3tXaVFna2Cp0wkiYEa0PLZY6Myfibfp2/dklDsX4=
+			tv/kOGq2SA12BV3KJdNb6EHN9jaFSwhnejfFXfROLu8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

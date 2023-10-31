@@ -142,6 +142,32 @@
         "printedName": "ConversationsViewController",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConversationsViewController",
+                "printedName": "ChatSDK.ConversationsViewController",
+                "usr": "c:@M@ChatSDK@objc(cs)ConversationsViewController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ChatSDK@objc(cs)ConversationsViewController(im)init",
+            "mangledName": "$s7ChatSDK27ConversationsViewControllerCACycfc",
+            "moduleName": "ChatSDK",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "viewDidLoad",
             "printedName": "viewDidLoad()",
@@ -159,7 +185,7 @@
             "overriding": true,
             "objc_name": "viewDidLoad",
             "declAttributes": [
-              "Dynamic",
+              "Final",
               "ObjC",
               "Custom",
               "Override",
@@ -224,47 +250,6 @@
             "init_kind": "Designated"
           },
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(coder:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "ChatSDK.ConversationsViewController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ConversationsViewController",
-                    "printedName": "ChatSDK.ConversationsViewController",
-                    "usr": "c:@M@ChatSDK@objc(cs)ConversationsViewController"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NSCoder",
-                "printedName": "Foundation.NSCoder",
-                "usr": "c:objc(cs)NSCoder"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@ChatSDK@objc(cs)ConversationsViewController(im)initWithCoder:",
-            "mangledName": "$s7ChatSDK27ConversationsViewControllerC5coderACSgSo7NSCoderC_tcfc",
-            "moduleName": "ChatSDK",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "initWithCoder:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Custom",
-              "Required"
-            ],
-            "init_kind": "Designated"
-          },
-          {
             "kind": "Function",
             "name": "tableView",
             "printedName": "tableView(_:numberOfRowsInSection:)",
@@ -294,7 +279,7 @@
             "moduleName": "ChatSDK",
             "objc_name": "tableView:numberOfRowsInSection:",
             "declAttributes": [
-              "Dynamic",
+              "Final",
               "ObjC",
               "Custom",
               "AccessControl"
@@ -332,7 +317,7 @@
             "moduleName": "ChatSDK",
             "objc_name": "tableView:cellForRowAtIndexPath:",
             "declAttributes": [
-              "Dynamic",
+              "Final",
               "ObjC",
               "Custom",
               "AccessControl"
@@ -369,7 +354,7 @@
             "moduleName": "ChatSDK",
             "objc_name": "tableView:didSelectRowAtIndexPath:",
             "declAttributes": [
-              "Dynamic",
+              "Final",
               "ObjC",
               "Custom",
               "AccessControl"
@@ -385,10 +370,11 @@
         "declAttributes": [
           "Custom",
           "AccessControl",
+          "Final",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UIViewController",
-        "inheritsConvenienceInitializers": true,
+        "hasMissingDesignatedInitializers": true,
         "superclassNames": [
           "UIKit.UIViewController",
           "UIKit.UIResponder",
@@ -804,35 +790,42 @@
     {
       "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Scenes\/Conversations\/ConversationsViewController.swift",
       "kind": "Array",
-      "offset": 335,
+      "offset": 341,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Scenes\/Conversations\/ConversationsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1304,
+      "offset": 134,
+      "length": 27,
+      "value": "\"ChatSDK.ConversationsViewController\""
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Scenes\/Conversations\/ConversationsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1468,
       "length": 28,
       "value": "\"index is: \""
     },
     {
       "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Scenes\/Conversations\/ConversationsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1331,
+      "offset": 1495,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Scenes\/Conversations\/ConversationsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1510,
+      "offset": 1674,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Scenes\/Conversations\/ConversationsViewController.swift",
       "kind": "Array",
-      "offset": 1548,
+      "offset": 1712,
       "length": 223,
       "value": "[\"sdknc;lkasnd\", \"kdsvkn oks d[pk;v ;asldkn\", \"dskfn;aodsk m sda[ko; la, va;ls\", \"sdkanv;klsndv\", \"sdknvk ;kn asd;jvk ausdhjn m\"]"
     },
