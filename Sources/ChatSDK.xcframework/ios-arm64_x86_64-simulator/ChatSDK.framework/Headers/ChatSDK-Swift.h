@@ -277,6 +277,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import UIKit;
 #endif
 
 #endif
@@ -297,6 +298,34 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@class NSCoder;
+@class NSString;
+@class NSBundle;
+
+SWIFT_CLASS("_TtC7ChatSDK27ConversationsViewController")
+@interface ConversationsViewController : UIViewController
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+
+
+@class UITableView;
+@class NSIndexPath;
+
+@interface ConversationsViewController (SWIFT_EXTENSION(ChatSDK)) <UITableViewDelegate>
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
+@class UITableViewCell;
+
+@interface ConversationsViewController (SWIFT_EXTENSION(ChatSDK)) <UITableViewDataSource>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -584,6 +613,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import UIKit;
 #endif
 
 #endif
@@ -604,6 +634,34 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@class NSCoder;
+@class NSString;
+@class NSBundle;
+
+SWIFT_CLASS("_TtC7ChatSDK27ConversationsViewController")
+@interface ConversationsViewController : UIViewController
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+
+
+@class UITableView;
+@class NSIndexPath;
+
+@interface ConversationsViewController (SWIFT_EXTENSION(ChatSDK)) <UITableViewDelegate>
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
+@class UITableViewCell;
+
+@interface ConversationsViewController (SWIFT_EXTENSION(ChatSDK)) <UITableViewDataSource>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop

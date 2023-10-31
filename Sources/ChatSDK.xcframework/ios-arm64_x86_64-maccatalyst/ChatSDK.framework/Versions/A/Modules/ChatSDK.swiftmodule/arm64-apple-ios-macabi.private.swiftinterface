@@ -18,3 +18,15 @@ public struct AAChatSDK {
   public static func start()
   public static func createConversationsViewController() -> UIKit.UIViewController
 }
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class ConversationsViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
+  @objc deinit
+}
+extension ChatSDK.ConversationsViewController : UIKit.UITableViewDataSource {
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+}
+extension ChatSDK.ConversationsViewController : UIKit.UITableViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+}
