@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Resources/ConversationsViewController.nib</key>
+		<data>
+		2SAIywqtle37J+sqv+JW2BsiZ4g=
+		</data>
 		<key>Resources/Info.plist</key>
 		<data>
 		6GnatnycdZCGEMCD8PFbj5chp90=
@@ -15,7 +19,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HVgDhEmAz6kG663kArqJZPtidCZ//AzBl6wkS0q6Eo4=
+			m3QEs9qijxw9pcpIXwmzoS535HS8KBnAAnJ6iec6bAw=
 			</data>
 		</dict>
 		<key>Headers/ChatSDK.h</key>
@@ -29,14 +33,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KOc7cB4kH5OcljyPHGg4YWXfb5VLV/an19jkPYuBpss=
+			YPA2I0FRHf2PfxqM6ZSP4XK4w8iP/dYWe6otUzti/ZI=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7BGVylm/1tt18+NVvjwLP5P7WhkEfATfhTf0N1yuYbg=
+			TvHgbgOWrJrdB5wRdXOgnqFRKgWQrFQmiiCQTAs7hAw=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
@@ -50,28 +54,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7BGVylm/1tt18+NVvjwLP5P7WhkEfATfhTf0N1yuYbg=
+			TvHgbgOWrJrdB5wRdXOgnqFRKgWQrFQmiiCQTAs7hAw=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SJzmFFsLeWmjpt5wl0OSApha0S4mOzFAjFuVGoOdlR8=
+			fWBErw3HBac5IF9Guykz+DdeIDels4wWTnChJGKSECM=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KOc7cB4kH5OcljyPHGg4YWXfb5VLV/an19jkPYuBpss=
+			YPA2I0FRHf2PfxqM6ZSP4XK4w8iP/dYWe6otUzti/ZI=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DaeN8bo3Fpj0IwMCI8IWbCt+rfpXS0+/N4wYThi41ro=
+			e5i5916mzJMgqACYZHvhZe9nOLHnSkSOVIWRB13wGrc=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
@@ -85,14 +89,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DaeN8bo3Fpj0IwMCI8IWbCt+rfpXS0+/N4wYThi41ro=
+			e5i5916mzJMgqACYZHvhZe9nOLHnSkSOVIWRB13wGrc=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DiExrxq3dcWTgLyNLou9wQYel1WYKfcmhYGe2qzEXAM=
+			goK3tXaVFna2Cp0wkiYEa0PLZY6Myfibfp2/dklDsX4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -100,6 +104,13 @@
 			<key>hash2</key>
 			<data>
 			kgyEPrfsKeDBYEoQ0gq51rxP82sWTuNh8fOed9xqXhY=
+			</data>
+		</dict>
+		<key>Resources/ConversationsViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/JGPUU6Re2Ht664BuTVR4kwiSmOmTnQfQdAMTzRdq+8=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
