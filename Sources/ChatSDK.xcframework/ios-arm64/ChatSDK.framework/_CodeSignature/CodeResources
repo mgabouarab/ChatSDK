@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/ChatSDK-Swift.h</key>
 		<data>
-		hPGfN0nkXRbyl45CLYQOKB8sgcc=
+		wc7okGLLzRkz2mr+o9+Aqc96uFE=
 		</data>
 		<key>Headers/ChatSDK.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/ChatSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		xOP3Iaj/fT+b5YHXtxfYcfqaPy4=
+		vMb8ioLn6oQwxiPzyfOH+AP0epY=
 		</data>
 		<key>Modules/ChatSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		jv02oTSERm44EXMh7thxt6PTfk0=
+		YkYY1xUYBb+tsMoIF+JNhlf7TO8=
 		</data>
 		<key>Modules/ChatSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/ChatSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		jv02oTSERm44EXMh7thxt6PTfk0=
+		YkYY1xUYBb+tsMoIF+JNhlf7TO8=
 		</data>
 		<key>Modules/ChatSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		BoLxJ1LJgdeUzSn2Jyj2T8wMeu4=
+		bSTUDinsvEkh+BE5ZJGh6a/ydbQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -58,7 +58,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BkRPcCW66AltvR+ffz+aM8PQ9qVnrInVlSY8E7vAdpg=
+			Ei36fbyQybJ9kgjxn4Kga+0ffmum6rR5IBL4jwmsykM=
 			</data>
 		</dict>
 		<key>Headers/ChatSDK.h</key>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bgC8HCAJrbWnY2QxVo5bbZQAtkpPefhLOEmhijliH7Y=
+			UFRtoUZ5pODz1XQeqL3Rl1QWRkq/BJX1qhgF1D5mtsk=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pp9EZHx6dcUNHvpESEGu5SIxSRLl6jxo7TnQ696is4Y=
+			wupyc5cyFZYeR+JtIovuF0CwDav6SZ+Sptg3bx/6RfQ=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pp9EZHx6dcUNHvpESEGu5SIxSRLl6jxo7TnQ696is4Y=
+			wupyc5cyFZYeR+JtIovuF0CwDav6SZ+Sptg3bx/6RfQ=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			73K8bByQ1kNjzDrVb+A1/A09/kPF6u8ji08gfUc46o4=
+			AfzEXEQurLWaz8PSBi2gS1EsO9OYup8oDsMmkfUTPkQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

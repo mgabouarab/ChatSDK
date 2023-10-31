@@ -45,6 +45,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ChatSDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "AAChatSDK",
         "printedName": "AAChatSDK",
@@ -96,6 +103,28 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createConversationsViewController",
+            "printedName": "createConversationsViewController()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7ChatSDK06AAChatB0V33createConversationsViewControllerSo06UIViewG0CyFZ",
+            "mangledName": "$s7ChatSDK06AAChatB0V33createConversationsViewControllerSo06UIViewG0CyFZ",
+            "moduleName": "ChatSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -134,309 +163,6 @@
         "moduleName": "ChatSDK",
         "declAttributes": [
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ConversationsViewController",
-        "printedName": "ConversationsViewController",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ConversationsViewController",
-                "printedName": "ChatSDK.ConversationsViewController",
-                "usr": "c:@M@ChatSDK@objc(cs)ConversationsViewController"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@ChatSDK@objc(cs)ConversationsViewController(im)init",
-            "mangledName": "$s7ChatSDK27ConversationsViewControllerCACycfc",
-            "moduleName": "ChatSDK",
-            "overriding": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Custom",
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "viewDidLoad",
-            "printedName": "viewDidLoad()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ChatSDK@objc(cs)ConversationsViewController(im)viewDidLoad",
-            "mangledName": "$s7ChatSDK27ConversationsViewControllerC11viewDidLoadyyF",
-            "moduleName": "ChatSDK",
-            "overriding": true,
-            "objc_name": "viewDidLoad",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "Custom",
-              "Override",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(nibName:bundle:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ConversationsViewController",
-                "printedName": "ChatSDK.ConversationsViewController",
-                "usr": "c:@M@ChatSDK@objc(cs)ConversationsViewController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.Bundle?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bundle",
-                    "printedName": "Foundation.Bundle",
-                    "usr": "c:objc(cs)NSBundle"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@ChatSDK@objc(cs)ConversationsViewController(im)initWithNibName:bundle:",
-            "mangledName": "$s7ChatSDK27ConversationsViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
-            "moduleName": "ChatSDK",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "initWithNibName:bundle:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Custom",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "tableView",
-            "printedName": "tableView(_:numberOfRowsInSection:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UITableView",
-                "printedName": "UIKit.UITableView",
-                "usr": "c:objc(cs)UITableView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@ChatSDK@objc(cs)ConversationsViewController(im)tableView:numberOfRowsInSection:",
-            "mangledName": "$s7ChatSDK27ConversationsViewControllerC05tableD0_21numberOfRowsInSectionSiSo07UITableD0C_SitF",
-            "moduleName": "ChatSDK",
-            "objc_name": "tableView:numberOfRowsInSection:",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "tableView",
-            "printedName": "tableView(_:cellForRowAt:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UITableViewCell",
-                "printedName": "UIKit.UITableViewCell",
-                "usr": "c:objc(cs)UITableViewCell"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UITableView",
-                "printedName": "UIKit.UITableView",
-                "usr": "c:objc(cs)UITableView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "IndexPath",
-                "printedName": "Foundation.IndexPath",
-                "usr": "s:10Foundation9IndexPathV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@ChatSDK@objc(cs)ConversationsViewController(im)tableView:cellForRowAtIndexPath:",
-            "mangledName": "$s7ChatSDK27ConversationsViewControllerC05tableD0_12cellForRowAtSo07UITableD4CellCSo0kD0C_10Foundation9IndexPathVtF",
-            "moduleName": "ChatSDK",
-            "objc_name": "tableView:cellForRowAtIndexPath:",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "tableView",
-            "printedName": "tableView(_:didSelectRowAt:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UITableView",
-                "printedName": "UIKit.UITableView",
-                "usr": "c:objc(cs)UITableView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "IndexPath",
-                "printedName": "Foundation.IndexPath",
-                "usr": "s:10Foundation9IndexPathV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@ChatSDK@objc(cs)ConversationsViewController(im)tableView:didSelectRowAtIndexPath:",
-            "mangledName": "$s7ChatSDK27ConversationsViewControllerC05tableD0_14didSelectRowAtySo07UITableD0C_10Foundation9IndexPathVtF",
-            "moduleName": "ChatSDK",
-            "objc_name": "tableView:didSelectRowAtIndexPath:",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@ChatSDK@objc(cs)ConversationsViewController",
-        "mangledName": "$s7ChatSDK27ConversationsViewControllerC",
-        "moduleName": "ChatSDK",
-        "declAttributes": [
-          "Custom",
-          "AccessControl",
-          "Final",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)UIViewController",
-        "hasMissingDesignatedInitializers": true,
-        "superclassNames": [
-          "UIKit.UIViewController",
-          "UIKit.UIResponder",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          }
         ]
       },
       {
@@ -741,35 +467,35 @@
     {
       "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/ChatSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 170,
+      "offset": 183,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/ChatSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 450,
+      "offset": 463,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/ChatSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 481,
+      "offset": 494,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/ChatSDK.swift",
       "kind": "StringLiteral",
-      "offset": 588,
+      "offset": 601,
       "length": 45,
       "value": "\"Please check your ChatSDK apiKey you provid\""
     },
     {
       "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/ChatSDK.swift",
       "kind": "StringLiteral",
-      "offset": 678,
+      "offset": 691,
       "length": 20,
       "value": "\"successfully start\""
     },
@@ -790,42 +516,35 @@
     {
       "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Scenes\/Conversations\/ConversationsViewController.swift",
       "kind": "Array",
-      "offset": 341,
+      "offset": 334,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Scenes\/Conversations\/ConversationsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 134,
-      "length": 27,
-      "value": "\"ChatSDK.ConversationsViewController\""
-    },
-    {
-      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Scenes\/Conversations\/ConversationsViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1468,
+      "offset": 1303,
       "length": 28,
       "value": "\"index is: \""
     },
     {
       "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Scenes\/Conversations\/ConversationsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1495,
+      "offset": 1330,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Scenes\/Conversations\/ConversationsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1674,
+      "offset": 1509,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Scenes\/Conversations\/ConversationsViewController.swift",
       "kind": "Array",
-      "offset": 1712,
+      "offset": 1547,
       "length": 223,
       "value": "[\"sdknc;lkasnd\", \"kdsvkn oks d[pk;v ;asldkn\", \"dskfn;aodsk m sda[ko; la, va;ls\", \"sdkanv;klsndv\", \"sdknvk ;kn asd;jvk ausdhjn m\"]"
     },
