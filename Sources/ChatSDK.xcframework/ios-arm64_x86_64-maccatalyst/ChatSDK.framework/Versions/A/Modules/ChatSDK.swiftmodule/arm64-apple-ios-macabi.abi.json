@@ -45,6 +45,68 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "AAChatSDK",
+        "printedName": "AAChatSDK",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(apiKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7ChatSDK06AAChatB0V9configure6apiKeyySS_tFZ",
+            "mangledName": "$s7ChatSDK06AAChatB0V9configure6apiKeyySS_tFZ",
+            "moduleName": "ChatSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7ChatSDK06AAChatB0V5startyyFZ",
+            "mangledName": "$s7ChatSDK06AAChatB0V5startyyFZ",
+            "moduleName": "ChatSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7ChatSDK06AAChatB0V",
+        "mangledName": "$s7ChatSDK06AAChatB0V",
+        "moduleName": "ChatSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -364,30 +426,37 @@
       "value": "\"{}\""
     },
     {
-      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/ChatSDK.swift",
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Chat.swift",
       "kind": "BooleanLiteral",
-      "offset": 161,
+      "offset": 170,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/ChatSDK.swift",
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Chat.swift",
       "kind": "BooleanLiteral",
-      "offset": 376,
+      "offset": 445,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Chat.swift",
+      "kind": "BooleanLiteral",
+      "offset": 476,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/ChatSDK.swift",
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Chat.swift",
       "kind": "StringLiteral",
-      "offset": 483,
+      "offset": 583,
       "length": 45,
       "value": "\"Please check your ChatSDK apiKey you provid\""
     },
     {
-      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/ChatSDK.swift",
+      "filePath": "\/Users\/mgabouarab\/Desktop\/Chat project\/Framework\/ChatSDK\/ChatSDK\/Chat.swift",
       "kind": "StringLiteral",
-      "offset": 573,
+      "offset": 673,
       "length": 20,
       "value": "\"successfully start\""
     },

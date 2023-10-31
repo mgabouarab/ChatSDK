@@ -29,14 +29,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			047uSXMPVR7QVr/FCCnJF/Oicct3ZgiSe8TzFaO+ntU=
+			KOc7cB4kH5OcljyPHGg4YWXfb5VLV/an19jkPYuBpss=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xAQGXUYrSjvRBBiohxGL/qrZKU/9o3RoKt3c43sju9g=
+			7BGVylm/1tt18+NVvjwLP5P7WhkEfATfhTf0N1yuYbg=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
@@ -50,28 +50,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xAQGXUYrSjvRBBiohxGL/qrZKU/9o3RoKt3c43sju9g=
+			7BGVylm/1tt18+NVvjwLP5P7WhkEfATfhTf0N1yuYbg=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZQxEd0O/kriOHhAG67nYBIt+loMyBqa5kjdNyz5DhdU=
+			SJzmFFsLeWmjpt5wl0OSApha0S4mOzFAjFuVGoOdlR8=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			047uSXMPVR7QVr/FCCnJF/Oicct3ZgiSe8TzFaO+ntU=
+			KOc7cB4kH5OcljyPHGg4YWXfb5VLV/an19jkPYuBpss=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TcGNNVRolkY9QXXBN/N5UGn4PsVwWGOsXJ1fLtxwdV0=
+			DaeN8bo3Fpj0IwMCI8IWbCt+rfpXS0+/N4wYThi41ro=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
@@ -85,14 +85,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TcGNNVRolkY9QXXBN/N5UGn4PsVwWGOsXJ1fLtxwdV0=
+			DaeN8bo3Fpj0IwMCI8IWbCt+rfpXS0+/N4wYThi41ro=
 			</data>
 		</dict>
 		<key>Modules/ChatSDK.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PTPwnC7hhy6qClNEKDf1lZ7t7jLyrUNYnpwjYe612A8=
+			DiExrxq3dcWTgLyNLou9wQYel1WYKfcmhYGe2qzEXAM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

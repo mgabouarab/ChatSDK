@@ -12,3 +12,7 @@ import _SwiftConcurrencyShims
 extension Swift.Collection {
   public func json() -> Swift.String
 }
+public struct AAChatSDK {
+  public static func configure(apiKey: Swift.String)
+  public static func start()
+}
